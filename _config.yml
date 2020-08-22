@@ -1,1 +1,3 @@
 remote_theme: samarsault/plainwhite-jekyll
+plainwhite:
+  dark_mode: true
