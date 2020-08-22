@@ -10,7 +10,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Marcelo Falchetti
-  tagline: 
+  tagline: Biólogo.<br/>Bioinformata.
   date_format: "%b %-d, %Y"
   sitemap: true 
   search: true 
