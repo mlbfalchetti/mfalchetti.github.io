@@ -15,20 +15,17 @@ Um script é um arquivo que permite a construção de esquemas de execução com
 
 Entretanto, caso i) eles contenham na primeira linha do script o chamado *shebang* (ou *hashpound*) 
 
-<pre><code>
-#!/bin/bash # p.e. para scripts com códigos em bash
+<pre><code>#!/bin/bash # p.e. para scripts com códigos em bash
 ou 
 #!/usr/bin/python3 # p.e. para scripts com códigos em python3
 </code></pre>
 
 e ii) tenham sido marcados como arquivos executáveis (chmod, "*change mode*" e +x, "*executable*")
 
-<pre><code>
-chmod +x script.sh
+<pre><code>chmod +x script.sh
 </code></pre>
 
 eles podem então serem chamados de modo direto 
 
-<pre><code>
-script.sh
+<pre><code>script.sh
 </code></pre>
