@@ -25,9 +25,9 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: https://twitter.com/userfalchetti
-    github:  https://github.com/mfalchetti
-    linkedIn: https://www.linkedin.com/in/marcelo-falchetti/
+    twitter: userfalchetti
+    github:  mfalchetti
+    linkedIn: in/marcelo-falchetti/
 
 # Build settings
 theme: plainwhite
