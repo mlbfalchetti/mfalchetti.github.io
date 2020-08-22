@@ -6,9 +6,30 @@ categories: jekyll update
 ---
 {: style="text-align: justify" }
 
-Olá, meu nome é Marcelo Falchetti e aqui falarei um pouco sobre scripts de UNIX para bash shell. Um script basicamente é um arquivo que permite a construção de esquemas de execução complexos.
+Olá, meu nome é Marcelo Falchetti e aqui falarei um pouco sobre scripts de UNIX para bash shell. 
 
-{: style="text-align: justify" }
+Um script é um arquivo que permite a construção de esquemas de execução complexos. Esses arquivos geralmente contém um texto curto, de 10 a 100 linhas, com uma série de comandos bash e é convencional que contenham a extensão .sh, sendo rodados em shell chamando:
 
-Os arquivos de script permitem construir esquemas de execução complexos a partir dos comandos básicos do shell. A forma mais elementar de arquivo de script é apenas um conjunto de comandos em um arquivo texto, com permissões de execução habilitadas.
+<pre><code>
+bash script.sh
+</code></pre>
 
+Entretanto, caso i) eles contenham na primeira linha do script o chamado *shebang* (ou *hashpound*) 
+
+<pre><code>
+#!/bin/bash # p.e. para scripts com códigos em bash
+ou 
+#!/usr/bin/python3 # p.e. para scripts com códigos em python3
+</code></pre>
+
+e ii) tenham sido marcados como arquivos executáveis (chmod, "*change mode*" e +x, "*executable*")
+
+<pre><code>
+chmod +x script.sh
+</code></pre>
+
+eles podem então serem chamados de modo direto 
+
+<pre><code>
+script.sh
+</code></pre>
