@@ -10,8 +10,9 @@ Olá, meu nome é Marcelo Falchetti e aqui falarei um pouco sobre scripts de UNI
 
 Um script é um arquivo que permite a construção de esquemas de execução complexos. Esses arquivos geralmente contém um texto curto, de 10 a 100 linhas, com uma série de comandos bash e é convencional que contenham a extensão .sh, sendo rodados em shell chamando:
 
-<pre><code>bash script.sh
-</code></pre>
+```
+bash script.sh
+```
 
 Entretanto, caso i) eles contenham na primeira linha do script o chamado *shebang* (ou *hashpound*) 
 
