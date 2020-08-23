@@ -8,13 +8,6 @@ Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma cl
 </p>
 
 
-## Welcome
-<p style="text-align: justify;">
-Hello! My name is Marcelo Falchetti, I am a biologist graduated from the Federal University of Santa Catarina (UFSC), master and doctoral student in Pharmacology at the same university. I am a specialist in genomics, transcriptomics and automated learning (Machine Learning, Deep Learning). I have programming skills in R and Python. I currently collaborate on bioinformatics and data science projects at *LabCancer - Cancer Biochemistry and Pharmacology*.
-
-In this environment I intend to write about what I have been learning in a clear and objective way, as I would like to read in my searches. In addition, I will comment on *scripts*, *pipelines* and produced articles, developing a portfolio of my research.
-</p>
-
 
 ### Markdown
 
