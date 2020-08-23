@@ -1,12 +1,19 @@
-## Welcome to GitHub Pages
+{: style="text-align: justify" }
 
-You can use the [editor on GitHub](https://github.com/mfalchetti/mfalchetti.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Bem-vindo
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Olá! Meu nome é Marcelo Falchetti, sou um biólogo formado na Universidade Federal de Santa Catarina (UFSC), mestre e doutorando em Farmacologia na mesmo local. Sou especialista em análises de genômica, transcriptômica e em aprendizagem automatizada (Machine Learning, Deep Learning). Possuo habilidades de programação em linguagem R e Python. Atualmente colaboro em projetos de bioinformática e de ciência de dados no *LabCancer - Cancer Biochemistry and Pharmacology*.
+
+Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma clara e objetiva, como gostaria de ler em minhas buscas. Além do mais comentarei sobre *scripts*, *pipelines* e artigos realizados, desenvolvendo um portfolio das minhas pesquisas. 
+
+## Welcome
+
+Hello! My name is Marcelo Falchetti, I am a biologist graduated from the Federal University of Santa Catarina (UFSC), master and doctoral student in Pharmacology at the same university. I am a specialist in genomics, transcriptomics and automated learning (Machine Learning, Deep Learning). I have programming skills in R and Python. I currently collaborate on bioinformatics and data science projects at *LabCancer - Cancer Biochemistry and Pharmacology*.
+
+In this environment I intend to write about what I have been learning in a clear and objective way, as I would like to read in my searches. In addition, I will comment on *scripts*, *pipelines* and produced articles, developing a portfolio of my research.
+
 
 ### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -28,10 +35,3 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mfalchetti/mfalchetti.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
