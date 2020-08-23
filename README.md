@@ -1,5 +1,3 @@
-{: style="text-align: justify" }
-
 ## Bem-vindo
 
 
