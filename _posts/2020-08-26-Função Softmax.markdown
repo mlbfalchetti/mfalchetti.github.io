@@ -12,10 +12,10 @@ Como exemplo de bioinformática, você pode querer montar um modelo que categori
 
 ```
 Classe                  Probabilidade de classe
-Basal-*like*            0.850
+Basal-like              0.850
 Claudin-low             0.025
-Luminal-*like* type A   0.050
-Luminal-*like* type B   0.050
-Normal-*like*           0.025
-**SOMA**                    1.000
+Luminal-like type A     0.050
+Luminal-like type B     0.050
+Normal-like             0.025
+Total                   1
 ```
