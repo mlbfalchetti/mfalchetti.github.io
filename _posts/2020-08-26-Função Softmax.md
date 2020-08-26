@@ -7,11 +7,11 @@ categories: jekyll update
 *Deep Learning*
 
 <p style="text-align: justify;">
-Quando você está implementando uma classificação em <i>Deep Learning</i> com múltiplas possíveis classes (mais classes que uma classificação binária) você pode utilizar a generalização da regressão logística chamada *regressão softmax*.
+Quando você está implementando uma classificação em <i>Deep Learning</i> com múltiplas possíveis classes (mais classes que uma classificação binária) você pode utilizar a generalização da regressão logística chamada <i>regressão softmax</i>.
 </p>
 
 <p style="text-align: justify;">
-Como exemplo de bioinformática, você pode querer montar um modelo que categorize amostras de câncer de mama em seus subtipos determinados de suas expressões de mRNA, 1 - subtipo Basal-*like*, 2 - Claudin-low, 3 - Luminal-*like* type A, 4 - Luminal-*like* type B e 5 - Normal-*like*. Neste caso você deve definir a última camada da rede como possuindo 5 nós, um para cada classe e deve esperar que em cada nó você receba as probabilidades de classes, para cada amostra, algo como mostrado abaixo.
+Como exemplo de bioinformática, você pode querer montar um modelo que categorize amostras de câncer de mama em seus subtipos determinados de suas expressões de mRNA, 1 - subtipo Basal-<i>like</i>, 2 - Claudin-low, 3 - Luminal-<i>like</i> type A, 4 - Luminal-<i>like</i> type B e 5 - Normal-<i>like</i>. Neste caso você deve definir a última camada da rede como possuindo 5 nós, um para cada classe e deve esperar que em cada nó você receba as probabilidades de classes, para cada amostra, algo como mostrado abaixo.
 </p>
 
 ```
