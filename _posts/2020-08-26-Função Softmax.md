@@ -4,7 +4,7 @@ title:  "Função Softmax"
 date:   2020-08-26 14:00:00 -0300
 categories: jekyll update
 ---
-*Deep Learning*
+## Probabilidades de múltiplas possíveis classes
 
 <p style="text-align: justify;">
 Quando você está implementando uma classificação em <i>Deep Learning</i> com múltiplas possíveis classes (mais classes que uma classificação binária) você pode utilizar a generalização da regressão logística chamada <i>regressão softmax</i>.
@@ -34,24 +34,4 @@ Na última camada da rede neural, como sempre, você irá calcular a função li
   $$a^{[L]} = {e^{Z^{L}} \over {\sum_{i=i}^5 t_i}}.$$
 </p>
 
-
-```
-# Em R 
-t = e ^ Z # aqui Z terá 5 valores, um para cada classe -nó- da última camada da rede neural, ou seja, e ^ Z[da última camada L]
-```
-
-e então você irá normalizar o vetor t [5 nós, 1 camada] para que ele totalize 1, conforme mostrado acima na probablidade de classe esperada. Para isso:
-
-```
-# Em R
-A = t / sum(t)
-```
-
-Por exemplo
-
-```
-
-```
-
-$ \sum_{\forall i}{x_i^{2}} $
-
+##  
