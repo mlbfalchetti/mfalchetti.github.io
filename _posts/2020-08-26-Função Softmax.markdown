@@ -11,6 +11,7 @@ Quando você está implementando uma classificação em *Deep Learning* com múl
 Como exemplo de bioinformática, você pode querer montar um modelo que categorize amostras de câncer de mama em seus subtipos determinados de suas expressões de mRNA, 1 - subtipo Basal-*like*, 2 - Claudin-low, 3 - Luminal-*like* type A, 4 - Luminal-*like* type B e 5 - Normal-*like*. Neste caso você deve definir a última camada da rede como possuindo 5 nós, um para cada classe e deve esperar que em cada nó você receba as probabilidades de classes, para cada amostra.
 
 ```
+#-- Amostra #1
 #-- Classe              #-- Probabilidade de classe
 Basal-like              0.850
 Claudin-low             0.025
