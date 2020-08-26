@@ -35,6 +35,9 @@ Na última camada da rede neural, como sempre, você irá calcular a função li
   \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 </p>
 
+<p>
+  $$a^{[L]} = {e^{Z^{L}} \over {\sum_{i=i}^5 t_i}}.$$
+</p>
 
 
 ```
