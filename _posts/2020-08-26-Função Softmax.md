@@ -27,6 +27,16 @@ Total                   1
 
 Na última camada da rede neural, como sempre, você irá calcular a função linear (Z<sup>[L]</sup> = W<sup>[L]</sup> * A<sup>[L - 1]</sup> + B<sup>[L]</sup>) e então irá empregar a função de ativação (A) <i>Softmax</i>. Primeiramente você deve calcular:
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<p>
+  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+</p>
+
+
+
 ```
 # Em R 
 t = e ^ Z # aqui Z terá 5 valores, um para cada classe -nó- da última camada da rede neural, ou seja, e ^ Z[da última camada L]
