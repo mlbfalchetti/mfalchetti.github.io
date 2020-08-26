@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  
-categories: jekyll update
 ---
 
 ## Bem-vindo
