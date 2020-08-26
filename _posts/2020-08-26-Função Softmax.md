@@ -5,7 +5,7 @@ date:   2020-08-26 14:00:00 -0300
 categories: jekyll update
 ---
 <p style="text-align: justify;">
-Quando você está implementando uma classificação em _Deep Learning_ com múltiplas possíveis classes (mais classes que uma classificação binária) você pode utilizar a generalização da regressão logística chamada *regressão softmax*.
+Quando você está implementando uma classificação em *Deep Learning* com múltiplas possíveis classes (mais classes que uma classificação binária) você pode utilizar a generalização da regressão logística chamada *regressão softmax*.
 </p>
 
 <p style="text-align: justify;">
