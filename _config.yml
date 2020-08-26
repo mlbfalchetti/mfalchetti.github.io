@@ -30,7 +30,3 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
-
-.post-content p {
-    text-align: justify;
-}
