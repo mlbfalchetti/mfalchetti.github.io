@@ -2,8 +2,9 @@
 layout: post
 title:  "Função Softmax"
 date:   2020-08-26 14:00:00 -0300
-categories: jekyll update deep-learning "deep learning"
+categories: jekyll update deep-learning
 ---
+
 ### Probabilidades de múltiplas possíveis classes
 
 <p style="text-align: justify;">
