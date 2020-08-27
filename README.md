@@ -1,8 +1,6 @@
 ---
-layout: page
+title: "Bem vindo"
 ---
-
-## Bem-vindo
 
 
 <p style="text-align: justify;">
