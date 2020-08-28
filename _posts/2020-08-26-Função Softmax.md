@@ -86,3 +86,9 @@ Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com um
 </p>
 
 <img src="/imagens/exp_x.png" alt="imagem" style="width:350px;height:350px;" class="center">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
