@@ -17,7 +17,7 @@ Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma cl
 
 <p>&#x1F393; ORCID</p>
 
-<p>&#x1F393; Currículo Lattes</p>
+<p>&#x1F393;<a href="http://lattes.cnpq.br/3380478087266994"> Currículo Lattes</a></p>
 
 
 :question: 
