@@ -37,7 +37,7 @@ Na última camada da rede neural, como sempre, você irá calcular a função li
 ### Dissecando 
 
 <p style="text-align: justify;">
-O que a fórmula faz é colocar os resultados da função linear (Z<sup>[L]</sup>) no lugar do valor expoente do logaritmo de base <i>e</i>, ou logaritmo <i>natural</i>, gerando os valores e ^ Z<sup>[L]</sup>, e por fim os divide pela soma de todos esses valores (&sum e ^ Z<sup>[L]</sup>), nos dando assim uma proporção de 0 a 1. Simples e efetivo. 
+O que a fórmula faz é colocar os resultados da função linear (Z<sup>[L]</sup>) no lugar do valor expoente do logaritmo de base <i>e</i>, ou logaritmo <i>natural</i>, gerando os valores e ^ Z<sup>[L]</sup>, e por fim os divide pela soma de todos esses valores (&sum; e ^ Z<sup>[L]</sup>), nos dando assim uma proporção de 0 a 1. Simples e efetivo. 
 </p>
 
 Vejamos com exemplo:
