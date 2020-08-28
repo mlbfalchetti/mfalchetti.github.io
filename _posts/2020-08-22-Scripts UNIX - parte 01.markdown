@@ -4,7 +4,7 @@ title:  "Scripts UNIX - parte 01"
 date:   2020-08-22 14:00:00 -0300
 categories: basics
 ---
-## Enter e já foi
+### Enter e já foi
 
 <p style="text-align: justify;">
 Olá, aqui falarei um pouco sobre scripts de UNIX para bash shell. 
@@ -44,7 +44,7 @@ eles podem então serem chamados de modo direto
 script.sh
 ``` 
 
-## Mas, por que? 
+### Mas, por que? 
 
 <p style="text-align: justify;">
 Utilizando um script você pode agrupar funcões em um arquivo, p.e. é possível montar um script capaz de realizar todas as etapas de uma boa análise de expressão diferencial de um experimento de RNA-Seq, com cada linha comentada para futuros estudos, onde você pode explicar as razões, as justificativas e as decisões tomadas pelo caminho. 
