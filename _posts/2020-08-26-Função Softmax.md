@@ -83,4 +83,4 @@ Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com um
 
 ![Distribuição de valores de -1 a +5 no eixo x e seus valores quando postos no expoente de e](imagens/exp_x.png)
 
-<img src="/imagens/exp_x.png" alt="imagem" style="width:128px;height:128px;">
+<img src="/imagens/exp_x.png" alt="imagem" style="width:100px;height:100px;">
