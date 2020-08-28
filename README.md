@@ -9,7 +9,10 @@
 
 :v:
 
+
 :mortar_board: ORCID
+
 :mortar_board: currículo Lattes
+
 
 :question: 
