@@ -82,13 +82,14 @@ Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com um
 </p>
 
 <p style="text-align: justify;">
-  Distribuição de valores de -1 a +5 (no eixo x) e seus valores quando postos no expoente de <i>e</i> (no eixo y).
+Distribuição de valores de -1 a +5 (no eixo x) e seus valores quando postos no expoente de <i>e</i> (no eixo y).
 </p>
 
-<img src="/imagens/exp_x.png" alt="imagem" style="width:350px;height:350px;" class="center">
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+<p class="aligncenter">
+  <img src="/imagens/exp_x.png" alt="imagem" style="width:350px;height:350px;">
+</p>
+<style>
+.aligncenter {
+    text-align: center;
 }
+</style>
