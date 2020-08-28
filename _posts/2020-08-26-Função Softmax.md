@@ -25,7 +25,9 @@ Normal-like             0.025
 Total                   1
 ```
 
+<p style="text-align: justify;">
 Na última camada da rede neural, como sempre, você irá calcular a função linear (Z<sup>[L]</sup> = W<sup>[L]</sup> * A<sup>[L - 1]</sup> + B<sup>[L]</sup>) e então irá empregar a função de ativação (A) <i>Softmax</i>. A fórmula é:
+</p>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -75,4 +77,6 @@ Normal-like             0.5           1.6               ~0.010
 Total                   7.9           159.8             0.998 ou ~1
 ```
 
+<p style="text-align: justify;">
 Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com uma <i>probabilidade de classe</i> de 0.929. 
+</p>
