@@ -81,8 +81,10 @@ Total                   7.9           159.8             0.998 ou ~1
 Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com uma <i>probabilidade de classe</i> de 0.929. 
 </p>
 
+### Curiosidades
+
 <p style="text-align: justify;">
-Distribuição de valores de -1 a +5 (no eixo x) e seus valores quando postos no expoente de <i>e</i> (no eixo y).
+1. Distribuição de valores de -1 a +5 (no eixo x) e seus valores quando postos no expoente de <i>e</i> (no eixo y).
 </p>
 
 <p class="aligncenter">
@@ -93,3 +95,21 @@ Distribuição de valores de -1 a +5 (no eixo x) e seus valores quando postos no
     text-align: center;
 }
 </style>
+
+<p style="text-align: justify;">
+2. Valores de probabilidades sem transformações (sem e ^ Z<sup>[L]</sup>).
+</p>
+
+```
+#-- Classe              #-- Z^{L}     #-- Z^{L} / soma de Z^{L}
+Basal-like              5.0           ~0.632             
+Claudin-low             2.0           ~0.253               
+Luminal-like type A     0.2           ~0.025              
+Luminal-like type B     0.2           ~0.025               
+Normal-like             0.5           ~0,063               
+Total                   7.9           0.998 ou ~1             
+```
+
+<p style="text-align: justify;">
+Sendo assim, a fórmula aumenta a diferença entre o maior valor e os demais usando progressão de exponentes. Interessante, não?
+</p>
