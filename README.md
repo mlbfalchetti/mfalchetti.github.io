@@ -15,9 +15,9 @@ Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma cl
 :v:
 
 
-<p>&#x1F393;</p>ORCID
+<p>&#x1F393; ORCID</p>
 
-<p>&#x1F393;</p>currículo Lattes
+<p>&#x1F393; Currículo Lattes</p>
 
 
 :question: 
