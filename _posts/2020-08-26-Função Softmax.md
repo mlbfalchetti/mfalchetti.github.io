@@ -80,3 +80,5 @@ Total                   7.9           159.8             0.998 ou ~1
 <p style="text-align: justify;">
 Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com uma <i>probabilidade de classe</i> de 0.929. 
 </p>
+
+![](imagens/exp_x.png)
