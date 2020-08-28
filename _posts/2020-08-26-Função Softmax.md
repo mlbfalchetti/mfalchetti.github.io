@@ -66,7 +66,7 @@ Total                   7.9           159.8
 
 Passo 02:
 ```
-#-- Classe              #-- Z^{L}     #-- e^{Z^{L}}     #-- e^{Z^{L}} / e^{Z^{L}}
+#-- Classe              #-- Z^{L}     #-- e^{Z^{L}}     #-- e^{Z^{L}} / soma de e^{Z^{L}}
 Basal-like              5.0           148.5             ~0.929
 Claudin-low             2.0           7.3               ~0.045
 Luminal-like type A     0.2           1.2               ~0.007
