@@ -4,7 +4,7 @@
 
 
 <p style="text-align: justify;">
-<h4>Sou especialista em análises de genômica, transcriptômica e em aprendizagem automatizada (Machine Learning, Deep Learning). Possuo habilidades de programação em linguagem R e Python.</h4>
+<h4>Possuo habilidades de programação em linguagem R e Python. Sou especialista em análises de genômica, transcriptômica e em aprendizagem automatizada (Machine Learning, Deep Learning).</h4>
 </p>
 
 
