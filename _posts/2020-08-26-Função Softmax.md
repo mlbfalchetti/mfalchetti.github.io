@@ -42,6 +42,7 @@ O que a fórmula faz é colocar os resultados da função linear (Z<sup>[L]</sup
 
 Vejamos com exemplo:
 
+Dados:
 ```
 #-- Classe              #-- Z^{L}  
 Basal-like              5.0
@@ -52,7 +53,7 @@ Normal-like             0.5
 Total                   7.9
 ```
 
-
+Passo 01:
 ```
 #-- Classe              #-- Z^{L}     #-- e^{Z^{L}} = t
 Basal-like              5.0           148.5
@@ -63,7 +64,7 @@ Normal-like             0.5           1.6
 Total                   7.9           159.8
 ```
 
-
+Passo 02:
 ```
 #-- Classe              #-- Z^{L}     #-- e^{Z^{L}} = t    #-- t / soma de t
 Basal-like              5.0           148.5                ~0.929
