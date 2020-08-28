@@ -15,12 +15,10 @@ Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma cl
 :v:
 
 
-<p>&#x1F393;</p> &#1F393; ORCID
+<p>&#x1F393;</p>ORCID
 
-<p>&#x1F393;</p> &#1F393; currículo Lattes
+<p>&#x1F393;</p>currículo Lattes
 
 
 :question: 
 
-
-<p>&#x1F981;</p>
