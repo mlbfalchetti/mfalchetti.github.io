@@ -81,6 +81,8 @@ Total                   7.9           159.8             0.998 ou ~1
 Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com uma <i>probabilidade de classe</i> de 0.929. 
 </p>
 
+<p style="text-align: justify;">
 Distribuição de valores de -1 a +5 no eixo x e seus valores quando postos no expoente de e
+</p>
 
 <img src="/imagens/exp_x.png" alt="imagem" style="width:350px;height:350px;" class="center>
