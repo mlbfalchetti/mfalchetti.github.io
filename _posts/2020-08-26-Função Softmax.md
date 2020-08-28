@@ -31,13 +31,13 @@ Na última camada da rede neural, como sempre, você irá calcular a função li
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <p>
-  $$a^{[L]} = {e^{Z^{L}} \over {\sum_{i=i}^5 t_i}}.$$
+  $$a^{[L]} = {e^{Z^{L}} \over {\sum_{i=i}^5 e^{Z^{L}}}}.$$
 </p>
 
 ### Dissecando 
 
 <p style="text-align: justify;">
-O que a fórmula faz é colocar os resultados da função linear (Z<sup>[L]</sup>) no lugar do valor expoente do logaritmo de base <i>e</i>, ou logaritmo <i>natural</i> (gerando um valor chamado de t), e por fim os divide pela soma de todos esses valores (soma de t), nos dando assim uma proporção de 0 a 1. Simples e efetivo. 
+O que a fórmula faz é colocar os resultados da função linear (Z<sup>[L]</sup>) no lugar do valor expoente do logaritmo de base <i>e</i>, ou logaritmo <i>natural</i>, gerando os valores e ^ Z<sup>[L]</sup>, e por fim os divide pela soma de todos esses valores (&sum e ^ Z<sup>[L]</sup>), nos dando assim uma proporção de 0 a 1. Simples e efetivo. 
 </p>
 
 Vejamos com exemplo:
@@ -55,7 +55,7 @@ Total                   7.9
 
 Passo 01:
 ```
-#-- Classe              #-- Z^{L}     #-- e^{Z^{L}} = t
+#-- Classe              #-- Z^{L}     #-- e^{Z^{L}}
 Basal-like              5.0           148.5
 Claudin-low             2.0           7.3
 Luminal-like type A     0.2           1.2
@@ -66,13 +66,13 @@ Total                   7.9           159.8
 
 Passo 02:
 ```
-#-- Classe              #-- Z^{L}     #-- e^{Z^{L}} = t    #-- t / soma de t
-Basal-like              5.0           148.5                ~0.929
-Claudin-low             2.0           7.3                  ~0.045
-Luminal-like type A     0.2           1.2                  ~0.007
-Luminal-like type B     0.2           1.2                  ~0.007
-Normal-like             0.5           1.6                  ~0.010
-Total                   7.9           159.8                0.998 ou ~1
+#-- Classe              #-- Z^{L}     #-- e^{Z^{L}}     #-- t / soma de t
+Basal-like              5.0           148.5             ~0.929
+Claudin-low             2.0           7.3               ~0.045
+Luminal-like type A     0.2           1.2               ~0.007
+Luminal-like type B     0.2           1.2               ~0.007
+Normal-like             0.5           1.6               ~0.010
+Total                   7.9           159.8             0.998 ou ~1
 ```
 
 Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com uma <i>probabilidade de classe</i> de 0.929. 
