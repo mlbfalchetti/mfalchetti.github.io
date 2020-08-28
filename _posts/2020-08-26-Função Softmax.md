@@ -2,7 +2,7 @@
 layout: post
 title:  "Função Softmax"
 date:   2020-08-26 14:00:00 -0300
-categories: jekyll update deep-learning
+categories: deep-learning activation-function
 ---
 
 ### Probabilidades de múltiplas possíveis classes
@@ -36,3 +36,40 @@ Na última camada da rede neural, como sempre, você irá calcular a função li
 </p>
 
 ### Dissecando 
+
+O que a fórmula faz é colocar os resultados da função linear (Z<sup>[L]</sup>) no lugar do valor expoente do logaritmo de base <i>e</i>, ou logaritmo <i>natural</i>, e por fim dividindo pela soma de todos esses valores, nos dando assim uma proporção de 0 a 1. Simples e efetivo. 
+
+Vejamos com exemplo:
+
+```
+i) Resultados da função linear na última camada da rede neural, com um nó para cada uma das múltiplas possíveis classes:
+#-- Classe              #-- Z^{L} = Resultado da função linear Z<sup>[L]</sup> = W<sup>[L]</sup> * A<sup>[L - 1]</sup> + B<sup>[L]</sup>) 
+Basal-like              5.0
+Claudin-low             2.0
+Luminal-like type A     0.2
+Luminal-like type B     0.2 
+Normal-like             0.5
+Total                   7.9
+```
+
+```
+ii) Colocados no lugar do valor expoente do logaritmo de base e:
+#-- Classe              #-- Z^{L}     #-- e^{Z^{L}}
+Basal-like              5.0           148.5
+Claudin-low             2.0           7.3
+Luminal-like type A     0.2           1.2
+Luminal-like type B     0.2           1.2
+Normal-like             0.5           1.6
+Total                   7.9           159.8
+```
+
+```
+iii) Divididos pela soma de todos esses valores (total):
+#-- Classe              #-- Z^{L}     #-- e^{Z^{L}}     #-- e^{Z^{L}} / 159.8
+Basal-like              5.0           148.5             ~0.929
+Claudin-low             2.0           7.3               ~0.045
+Luminal-like type A     0.2           1.2               ~0.007
+Luminal-like type B     0.2           1.2               ~0.007
+Normal-like             0.5           1.6               ~0.010
+Total                   7.9           159.8             0.998 ou ~1
+```
