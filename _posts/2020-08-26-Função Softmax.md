@@ -4,7 +4,6 @@ title:  "Função Softmax"
 date:   2020-08-26 14:00:00 -0300
 categories: deep-learning activation-function
 ---
-
 ### Probabilidades de múltiplas possíveis classes
 
 <p style="text-align: justify;">
@@ -74,3 +73,5 @@ Luminal-like type B     0.2           1.2                  ~0.007
 Normal-like             0.5           1.6                  ~0.010
 Total                   7.9           159.8                0.998 ou ~1
 ```
+
+Aqui, essa amostra foi predita como subtipo molecular "Basal-<i>like</i>" com uma <i>probabilidade de classe</i> de 0.929. 
