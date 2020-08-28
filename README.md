@@ -21,3 +21,6 @@ Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma cl
 
 
 :question: 
+
+
+<p>I will display &#x1F981;</p>
