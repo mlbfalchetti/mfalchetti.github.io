@@ -29,5 +29,5 @@ Para isso, vale recordar que nós sempre queremos <b>diminuir o valor do <i>cust
 </p>
 
 <p style="text-align: justify;">
-Sendo <i>w</i> e <i>b</i> os parâmetros da regressão logística (<i>weight</i> e <i>bias</i>, respectivamente), onde aqui <i>w</i> representa um vetor de valores e <i>b</i> um valor único. A fórmula resulta a soma das diferenças entre os valores obtidos e os esperados $$\sum_{i=1}^m L(\hat{y} - y)$$ e a divide pelo número de amostras $${1 \over m}$$. Dessa forma, temos a média das diferenças ou das <i>losses</i>.
+Sendo <i>w</i> e <i>b</i> os parâmetros da regressão logística (<i>weight</i> e <i>bias</i>, respectivamente), onde aqui <i>w</i> representa um vetor de valores e <i>b</i> um valor único. A fórmula resulta a soma das diferenças entre os valores obtidos e os esperados e a divide pelo número de amostras. Dessa forma, temos a média das diferenças ou das <i>losses</i>.
 </p>
