@@ -19,7 +19,7 @@ bash script.sh
 ```
 
 <p style="text-align: justify;">
-Entretanto, caso i) eles contenham na primeira linha do script o chamado <i>shebang</i> (ou <i>hashpound</i>) 
+Entretanto, caso 1 - eles contenham na primeira linha do script o chamado <i>shebang</i> (ou <i>hashpound</i>) 
 </p>
 
 ```sh
@@ -29,7 +29,7 @@ ou
 ```
 
 <p style="text-align: justify;">
-e ii) tenham sido marcados como arquivos executáveis (chmod, "<i>change mode</i>" e +x, "<i>executable</i>")
+e 2 - tenham sido marcados como arquivos executáveis (chmod, "<i>change mode</i>" e +x, "<i>executable</i>")
 </p>
 
 ```sh
