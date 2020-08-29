@@ -6,7 +6,7 @@ categories: deep-learning regularization
 ---
 
 <p style="text-align: justify;">
-Para lembrar, quando as análises da rede neural apresentam resultados ruins de acurácia no grupo de <i>treino</i> (<i>train set error</i>) você está usando um modelo com alto viés, <i>high bias</i>, porém quando os resultados ruins no grupo de <i>dev</i> ou <i>teste</i> (<i>dev/teste set error</i>) você está usando um modelo com alta variância, <i>high variance</i>, e esta está <i>over fitting</i> os dados. 
+Para lembrar, quando as análises da rede neural apresentam resultados ruins de acurácia no grupo de <i>treino</i> (<i>train set error</i>) você está usando um modelo com alto viés, <i>high bias</i>, porém quando apresentam resultados ruins no grupo de <i>dev</i> ou <i>teste</i> (<i>dev/teste set error</i>) você está usando um modelo com alta variância, <i>high variance</i>, e esta está <i>over fitting</i> os dados. 
 </p>
 
 <p style="text-align: justify;">
@@ -18,7 +18,7 @@ Mas o que é regularização em rede neural?
 </p>
 
 <p style="text-align: justify;">
-Para isso, vale recordar que nós sempre queremos <b>diminuir o valor do <i>custo</i></b> da rede neural, ou seja, nós sempre queremos diminuir as diferenças entre os valores obtidos e os esperados. Por exemplo, no caso de uma regressão logística a <i>cost function</i> (J) é definida como: 
+Para isso, vale recordar que nós sempre queremos <b>diminuir o valor do <i>custo</i></b> da rede neural, ou seja, nós sempre queremos diminuir as diferenças entre os valores obtidos e os esperados. Por exemplo, no caso de uma regressão logística a função desse custo, ou <i>cost function</i> (J) é definida como: 
 </p>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -30,4 +30,8 @@ Para isso, vale recordar que nós sempre queremos <b>diminuir o valor do <i>cust
 
 <p style="text-align: justify;">
 Sendo <i>w</i> e <i>b</i> os parâmetros da regressão logística (<i>weight</i> e <i>bias</i>, respectivamente), onde aqui <i>w</i> representa um vetor de valores e <i>b</i> um valor único. A fórmula resulta a soma das diferenças entre os valores obtidos e os esperados e a divide pelo número de amostras. Dessa forma, temos a média das diferenças ou das <i>losses</i>.
+</p>
+
+<p style="text-align: justify;">
+  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} + {\lambda \over 2m} ||w||_2^2.$$
 </p>
