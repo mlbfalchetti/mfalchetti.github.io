@@ -2,7 +2,7 @@
 layout: post
 title:  "Scripts UNIX - parte 01"
 date:   2020-08-22 14:00:00 -0300
-categories: basics
+categories: basics UNIX
 ---
 ### Enter e já foi
 
