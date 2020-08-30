@@ -33,9 +33,27 @@ Sendo <i>w</i> e <i>b</i> os parâmetros da regressão logística (<i>weight</i>
 </p>
 
 <p style="text-align: justify;">
-  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} \text{ + {\lambda \over 2m} ||w||_2^2}.$$
+  Para regularização <b>L2</B> na regressão logística se adiciona:
 </p>
 
 <p style="text-align: justify;">
-  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} {\text{ + {\lambda \over 2m} ||w||_2^2}}.$$
+  $$+ {\lambda \over 2m} ||w||_2^2.$$
 </p>
+
+<p style="text-align: justify;">
+Tendo assim:
+</p>
+
+<p style="text-align: justify;">
+  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} + {\lambda \over 2m} ||w||_2^2.$$
+</p>
+
+<p style="text-align: justify;">
+Onde:
+</p>
+
+<p style="text-align: justify;">
+  $$||x||_2^2 = \sum_{j=1}^{n_x}w_j^2 = w^Tw .$$
+</p>
+
+||<i>w</i>||<span class='supsub'><sup class='superscript'>2</sup><sub class='subscript'>2</sub></span> é o quadrado da norma euclideana do vetor <i>w</i>.
