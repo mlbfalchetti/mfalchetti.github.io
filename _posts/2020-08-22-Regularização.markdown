@@ -64,7 +64,7 @@ Tendo assim:
 </p>
 
 <p style="text-align: justify;">
-&lambda; é o <i>parâmetro de regularização</i> e é um hiperparâmetro ajustado de forma empirica; <i>2m</i> é apenas um fator de escala. Assim sendo, o que diferencia a regularização L1 da L2 é o ||<i>w</i>||<sub>1</sub>, ou <i>norma</i> L1 do parâmetro <i>w</i>, na regularização L1 e o ||<i>w</i>||<sub>2</sub>², ou quadrado da <i>norma</i> L2 do parâmetro <i>w</i>, na regularização L2. Essas diferenças, bem como seus resultados, determinam quando L1 e L2 são geralmente utilizados. <b>A ausência do quadrado na norma L1 faz com que o vetor <i>w</i> acabe sendo "esparso"</b>, ou seja, cheio de zeros (0). Isso pode ser utilizado na compressão de modelos, porque quanto mais parâmetros forem zeros, será preciso menos memória para armazená-los. 
+&lambda; é o <i>parâmetro de regularização</i> e é um hiperparâmetro ajustado de forma empirica; <i>2m</i> é apenas um fator de escala. <b>Assim sendo, o que diferencia a regularização L1 da L2 é o ||<i>w</i>||<sub>1</sub>, ou <i>norma</i> L1 do parâmetro <i>w</i>, na regularização L1 e o ||<i>w</i>||<sub>2</sub>², ou quadrado da <i>norma</i> L2 do parâmetro <i>w</i>, na regularização L2</b>. Essas diferenças, bem como seus resultados, determinam quando L1 e L2 são geralmente utilizados. <b>A ausência do quadrado na norma L1 faz com que o vetor <i>w</i> acabe sendo "esparso"</b>, ou seja, cheio de zeros (0). Isso pode ser utilizado na compressão de modelos, porque quanto mais parâmetros forem zeros, será preciso menos memória para armazená-los. 
 </p>
 
 
