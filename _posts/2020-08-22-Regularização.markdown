@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Regularização"
-date:   2020-08-26 14:00:00 -0300
+date:   2020-08-30 14:00:00 -0300
 categories: deep-learning regularization
 ---
 
@@ -33,5 +33,9 @@ Sendo <i>w</i> e <i>b</i> os parâmetros da regressão logística (<i>weight</i>
 </p>
 
 <p style="text-align: justify;">
-  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} + {\lambda \over 2m} ||w||_2^2.$$
+  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} \text{ + {\lambda \over 2m} ||w||_2^2}.$$
+</p>
+
+<p style="text-align: justify;">
+  $$J(w,b) = {1 \over m} \sum_{i=1}^m L(\hat{y} - y) \color{red} {\text{ + {\lambda \over 2m} ||w||_2^2}}.$$
 </p>
