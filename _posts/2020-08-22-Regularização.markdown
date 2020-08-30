@@ -55,7 +55,9 @@ Onde:
   $$||x||_2^2 = \sum_{j=1}^{n_x}w_j^2 = w^Tw .$$
 </p>
 
-Refere-se ao quadrado da norma euclideana do vetor <i>w</i>.
+<p style="text-align: justify;">
+Refere-se ao <b>quadrado da norma euclideana do vetor <i>w</i></b>.
+</p>
 
 ### Por que regularizar só o parâmetro <i>w</i>?
 
@@ -74,5 +76,5 @@ Existe, sim. Nesse caso, para <b>regularização L1</B> na regressão logística
 </p>
 
 <p style="text-align: justify;">
-Aqui a ausência do quadrado da norma euclideana do vetor <i>w</i> faz com que ele (vetor <i>w</i>) acabe sendo "esparso", ou seja, acabe sendo um vetor cheio de zeros. Algumas pessoas utilizam isso para comprimir modelos, porque quanto mais parâmetros forem zeros, será preciso menos memória para armazená-los.
+Aqui, <b>a ausência do quadrado da norma euclideana do vetor <i>w</i>></b> faz com que ele (vetor <i>w</i>) acabe sendo "esparso", ou seja, acabe sendo um vetor cheio de zeros. Algumas pessoas utilizam isso para comprimir modelos, porque quanto mais parâmetros forem zeros, será preciso menos memória para armazená-los.
 </p>
