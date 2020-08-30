@@ -88,5 +88,5 @@ Geralmente se omite as regularizações em <i>b</i> por este ser um valor único
 
 
 <p style="text-align: justify;">
-Aqui, <b>a ausência do quadrado da norma euclideana do vetor <i>w</i></b> faz com que ele (vetor <i>w</i>) acabe sendo "esparso", ou seja, acabe sendo um vetor cheio de zeros. Algumas pessoas utilizam isso para comprimir modelos, porque quanto mais parâmetros forem zeros, será preciso menos memória para armazená-los.
+Aqui, <b>a ausência do quadrado da norma euclideana do vetor <i>w</i></b> faz com que ele (vetor <i>w</i>) acabe sendo "esparso", ou seja, acabe sendo um vetor cheio de zeros. Algumas pessoas utilizam isso para comprimir modelos, porque quanto mais parâmetros forem zeros, menor é a memória necessária para armazená-los.
 </p>
