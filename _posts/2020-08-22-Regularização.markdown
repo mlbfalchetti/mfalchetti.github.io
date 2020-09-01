@@ -1,18 +1,26 @@
 ---
 layout: post
-title:  "Regularização"
+title:  "Regularização  L1 e L2"
 date:   2020-08-30 14:00:00 -0300
 categories: deep-learning regularization
 ---
-###
+### 
 
 <p style="text-align: justify;">
 Para lembrar, quando as análises da rede neural apresentam resultados ruins de acurácia no grupo de <i>treino</i> (<i>train set error</i>) você está usando um modelo com alto viés, <i>high bias</i>, porém quando apresentam resultados ruins no grupo de <i>dev</i> ou <i>teste</i> (<i>dev/teste set error</i>) você está usando um modelo com alta variância, <i>high variance</i>, e esta está <i>over fitting</i> os dados. 
 </p>
 
+<p style="text-align: justify; color: red;">
+<i>Overfitting</i>: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.  
+</p>
+
 <p style="text-align: justify;">
 Caso você possua um modelo de <i>high variance</i>, você pode tentar diminuir o <i>over fitting</i> 1 - buscando mais dados para o treino ou 2 - operando técnicas de regularização. Como você pode imaginar, as vezes não é possível adquirir mais dados, <i>p.e.</i> obter novas amostras pode ser caro, pode não se ter mais acesso a fonte desse dado e, sendo assim, a regularização acaba sendo a solução ideal. 
 </p>
+
+<p style="text-align: justify;">
+Regularizar é basicamente diminuir a importância 
+
 
 ### Como "regularizar" (Regularização L1 e L2)?
 
@@ -64,9 +72,14 @@ Tendo assim:
 </p>
 
 <p style="text-align: justify;">
-&lambda; é o <i>parâmetro de regularização</i> e é um hiperparâmetro ajustado de forma empirica; <i>2m</i> é apenas um fator de escala. <b>Assim sendo, o que diferencia a regularização L1 da L2 é o ||<i>w</i>||<sub>1</sub>, ou <i>norma</i> L1 do parâmetro <i>w</i>, na regularização L1 e o ||<i>w</i>||<sub>2</sub>², ou quadrado da <i>norma</i> L2 do parâmetro <i>w</i>, na regularização L2</b>. Essas diferenças, bem como seus resultados, determinam quando L1 e L2 são geralmente utilizados. <b>A ausência do quadrado na norma L1 faz com que o vetor <i>w</i> acabe sendo "esparso"</b>, ou seja, cheio de zeros (0). Isso pode ser utilizado na compressão de modelos, porque quanto mais parâmetros forem zeros, será preciso menos memória para armazená-los. 
+&lambda; é o <i>parâmetro de regularização</i> e é um hiperparâmetro ajustado de forma empirica; <i>2m</i> é apenas um fator de escala. <b>Assim sendo, o que diferencia a regularização L1 da L2 é o ||<i>w</i>||<sub>1</sub>, ou <i>norma</i> L1 do parâmetro <i>w</i>, na regularização L1 e o ||<i>w</i>||<sub>2</sub>², ou quadrado da <i>norma</i> L2 do parâmetro <i>w</i>, na regularização L2</b>. Essas diferenças, bem como seus resultados, determinam quando L1 e L2 são geralmente utilizados. <b>A ausência do quadrado na norma L1 faz com que o vetor <i>w</i> acabe sendo "esparso"</b>, ou seja, cheio de zeros (0). Isso pode ser utilizado na compressão de modelos, porque quanto mais parâmetros forem zeros, menor é o total de memória necessária para armazená-los. 
 </p>
 
+### Por que regularizar só o parâmetro <i>w</i>?
+
+<p style="text-align: justify;">
+Geralmente se omite as regularizações em <i>b</i> por este ser um valor único enquanto o parâmetro <i>w</i> é, mais uma vez geralmente, um vetor com uma elevada dimensionalidade, ou seja, com muitos parâmetros da rede neural. Sendo assim, quase todos os parâmetros estão em <i>w</i> e adicionar a regularização em <i>b</i> não faz uma grande diferença. Claro, você pode adicionar, se quiser.
+</p>
 
 
 
@@ -80,13 +93,3 @@ Sendo:
   $$||x||_2^2 = \sum_{j=1}^{n_x}w_j^2 = w^Tw .$$
 </p>
 
-### Por que regularizar só o parâmetro <i>w</i>?
-
-<p style="text-align: justify;">
-Geralmente se omite as regularizações em <i>b</i> por este ser um valor único enquanto o parâmetro <i>w</i> é, mais uma vez geralmente, um vetor com uma elevada dimensionalidade, ou seja, com muitos parâmetros da rede neural. Sendo assim, quase todos os parâmetros estão em <i>w</i> e adicionar a regularização em <i>b</i> não faz uma grande diferença. Claro, você pode adicionar, se quiser.
-</p>
-
-
-<p style="text-align: justify;">
-Aqui, <b>a ausência do quadrado da norma euclideana do vetor <i>w</i></b> faz com que ele (vetor <i>w</i>) acabe sendo "esparso", ou seja, acabe sendo um vetor cheio de zeros. Algumas pessoas utilizam isso para comprimir modelos, porque quanto mais parâmetros forem zeros, menor é a memória necessária para armazená-los.
-</p>
