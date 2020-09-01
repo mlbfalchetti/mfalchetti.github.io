@@ -20,7 +20,7 @@ Caso você possua um modelo de <i>high variance</i>, você pode tentar diminuir 
 
 <p style="text-align: justify;">
 Regularizar é basicamente diminuir a importância 
-
+</p>
 
 ### Como "regularizar" (Regularização L1 e L2)?
 
