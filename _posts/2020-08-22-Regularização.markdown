@@ -10,8 +10,8 @@ categories: deep-learning regularization
 Para lembrar, quando as análises da rede neural apresentam resultados ruins de acurácia no grupo de <i>treino</i> (<i>train set error</i>) você está usando um modelo com alto viés, <i>high bias</i>, porém quando apresentam resultados ruins no grupo de <i>dev</i> ou <i>teste</i> (<i>dev/teste set error</i>) você está usando um modelo com alta variância, <i>high variance</i>, e esta está <i>over fitting</i> os dados. 
 </p>
 
-<p style="text-align: justify; color: red;">
-<i>Overfitting</i>: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.  
+<p style="text-align: justify;">
+<b><i>Overfitting</i>: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.</b>  
 </p>
 
 <p style="text-align: justify;">
