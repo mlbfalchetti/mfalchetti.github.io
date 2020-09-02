@@ -11,7 +11,7 @@ Para lembrar, quando as análises da rede neural apresentam resultados ruins de 
 </p>
 
 <p style="text-align: justify;">
-<b><i>Overfitting</i>: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.</b>  
+<i>Overfitting: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.</b>  
 </p>
 
 <p style="text-align: justify;">
@@ -19,7 +19,7 @@ Caso você possua um modelo de <i>high variance</i>, você pode tentar diminuir 
 </p>
 
 <p style="text-align: justify;">
-Regularizar é basicamente diminuir a importância 
+Regularizar é basicamente penalizar os valores de <i>w</i> (os pesos), diminuindo-os. Dessa forma um modelo criado ainda identifica os parâmetros aprendidos, porém "dá menos importância" para eles. <i>Não leva eles tão a sério</i>, que era o que fazia ele atuar bem só em amostras que foi treinado. 
 </p>
 
 ### Como "regularizar" (Regularização L1 e L2)?
