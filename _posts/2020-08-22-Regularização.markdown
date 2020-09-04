@@ -82,7 +82,7 @@ O valor &lambda; influenciará os valores de <i>w</i>, das matrizes dos pesos. U
 </p>
 
 <p style="text-align: justify;">
-Outro importante ponto é que a Regularização L1 e L2 pode tornar os resultados de funções de ativação (como sigmóide ou <i>tanh</i>) análogos a uma função linear. Para lembrar, em cada camada da rede neural você calcula a função linear (Z[L] = W[L] * A[L - 1] + B[L]) e a função de ativação. Caso W represente valores próximos a zero (após regularização), Z<sup>[L]</sup> representará valores também próximos a zero, e como aqui representado, o centro da função de ativação tanh, por exemplo, é algo próximo a uma função linear (os valores de <i>x</i> próximos a zero).  Uma rede com camadas de função linear não alcança padrões muito complexos, fazendo modelos com muito <i>overfitting</i>. Interessante, né?
+Outro importante ponto é que a Regularização L1 e L2 pode tornar os resultados de funções de ativação (como sigmóide ou <i>tanh</i>) análogos a uma função linear. Para lembrar, em cada camada da rede neural você calcula a função linear (Z<sup>[L]</sup> = W<sup>[L]</sup> * A<sup>[L - 1]</sup> + B<sup>[L]</sup>) e a função de ativação. Caso W represente valores próximos a zero (após regularização), Z<sup>[L]</sup> representará valores também próximos a zero, e como aqui representado, o centro da função de ativação tanh, por exemplo, é algo próximo a uma função linear (os valores de <i>x</i> próximos a zero).  Uma rede com camadas de função linear não alcança padrões muito complexos, fazendo modelos com muito <i>overfitting</i>. Interessante, né?
 </p>
 
 <p class="aligncenter">
