@@ -77,28 +77,26 @@ Tendo assim:
 
 ### Como a Regularização L1 e L2 previnem o *overfitting*?
 
+<p style="text-align: justify;">
 O valor &lambda; influenciará os valores de <i>w</i>, das matrizes dos pesos. Uma vez que &lambda; for 1 - um valor muito grande, os valores de <i>w</i> serão muito próximos a zero, e sendo assim os impactos dessas <i>hidden units</i>, ou neurônios, estarão sendo (quase) zerados. Dessa forma você acaba tendo uma rede com "menos parâmetros", "menor", simplificada. Se &lambda; for 2 - um valor muito baixo, os efeitos da regularização sobre os pesos é pequeno. O objetivo então é determinar um valor de &lambda; que produza modelos intermediários, não muito simples ou complexos, que tenha aprendido o essencial dos dados. 
+</p>
 
-Outro importante ponto é que a Regularização L1 e L2 pode tornar os resultados de funções de ativação (como sigmóide ou <i>tanh</i>) análogos a uma função linear.  
+<p style="text-align: justify;">
+Outro importante ponto é que a Regularização L1 e L2 pode tornar os resultados de funções de ativação (como sigmóide ou <i>tanh</i>) análogos a uma função linear. Para lembrar, em cada camada da rede neural você calcula a função linear (Z[L] = W[L] * A[L - 1] + B[L]) e a função de ativação. Caso W represente valores próximos a zero (após regularização), Z<sup>[L]</sup> representará valores também próximos a zero, e como aqui representado, o centro da função de ativação tanh, por exemplo, é algo próximo a uma função linear (os valores de <i>x</i> próximos a zero).  Uma rede com camadas de função linear não alcança padrões muito complexos, fazendo modelos com muito <i>overfitting</i>. Interessante, né?
+</p>
 
-Outra coisa que acontece é que se lambda for alto, w acaba sendo baixo e o Z acaba sendo baixo, fazendo com que cada camada acabe sendo parecida roughly linear, como se fosse uma regressão linear (a parte do meio de um gráfico de tanh ou logistic). Uma rede com camadas lineares não é capaz então de tomar decisões muito complexas, fazer modelos muito overfitted, fazer non-linear decision boundaries
-o termo penaliza os valores de w por serem muito grandes
+<p class="aligncenter">
+  <img src="/imagens/tanh_x.png" alt="imagem" style="width:350px;height:350px;">
+</p>
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
 
-### Por que regularizar só o parâmetro <i>w</i>?
+### Curiosidades: Por que regularizar só o parâmetro <i>w</i>?
 
 <p style="text-align: justify;">
 Geralmente se omite as regularizações em <i>b</i> por este ser um valor único enquanto o parâmetro <i>w</i> é, mais uma vez geralmente, um vetor com uma elevada dimensionalidade, ou seja, com muitos parâmetros da rede neural. Sendo assim, quase todos os parâmetros estão em <i>w</i> e adicionar a regularização em <i>b</i> não faz uma grande diferença. Claro, você pode adicionar, se quiser.
-</p>
-
-
-
-
-
-<p style="text-align: justify;">
-Sendo:
-</p>
-
-<p style="text-align: justify;">
-  $$||x||_2^2 = \sum_{j=1}^{n_x}w_j^2 = w^Tw .$$
 </p>
 
