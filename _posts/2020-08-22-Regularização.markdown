@@ -11,7 +11,7 @@ Para lembrar, quando as análises da rede neural apresentam resultados ruins de 
 </p>
 
 <p style="text-align: justify;">
-<i>Overfitting: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.</b>  
+<i>Overfitting: Quando o modelo não <i>generaliza</i> bem, ou seja, o modelo possui alta acurácia para amostras que foi treinado, mas não outras, os chamados "dados reais". Isso porque o modelo está "justo" demais ao treino, ele "gravou bem as características apenas destas amostras, abrangendo as características "úteis" à classificação/aprendizado e as "inúteis" como os ruídos/<i>noises</i> destas.</i>  
 </p>
 
 <p style="text-align: justify;">
