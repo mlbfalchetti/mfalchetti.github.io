@@ -4,7 +4,7 @@ title:  "Regularização  L1 e L2"
 date:   2020-08-30 14:00:00 -0300
 categories: deep-learning regularization
 ---
-### 
+### Decorar ou aprender
 
 <p style="text-align: justify;">
 Para lembrar, quando as análises da rede neural apresentam resultados ruins de acurácia no grupo de <i>treino</i> (<i>train set error</i>) você está usando um modelo com alto viés, <i>high bias</i>, porém quando apresentam resultados ruins no grupo de <i>dev</i> ou <i>teste</i> (<i>dev/teste set error</i>) você está usando um modelo com alta variância, <i>high variance</i>, e esta está <i>over fitting</i> os dados. 
@@ -74,6 +74,15 @@ Tendo assim:
 <p style="text-align: justify;">
 &lambda; é o <i>parâmetro de regularização</i> e é um hiperparâmetro ajustado de forma empirica; <i>2m</i> é apenas um fator de escala. <b>Assim sendo, o que diferencia a regularização L1 da L2 é o ||<i>w</i>||<sub>1</sub>, ou <i>norma</i> L1 do parâmetro <i>w</i>, na regularização L1 e o ||<i>w</i>||<sub>2</sub>², ou quadrado da <i>norma</i> L2 do parâmetro <i>w</i>, na regularização L2</b>. Essas diferenças, bem como seus resultados, determinam quando L1 e L2 são geralmente utilizados. <b>A ausência do quadrado na norma L1 faz com que o vetor <i>w</i> acabe sendo "esparso"</b>, ou seja, cheio de zeros (0). Isso pode ser utilizado na compressão de modelos, porque quanto mais parâmetros forem zeros, menor é o total de memória necessária para armazená-los. 
 </p>
+
+### Como a Regularização L1 e L2 previnem o *overfitting*?
+
+O valor &lambda; influenciará os valores de <i>w</i>, das matrizes dos pesos. Uma vez que &lambda; for 1 - um valor muito grande, os valores de <i>w</i> serão muito próximos a zero, e sendo assim os impactos dessas <i>hidden units</i>, ou neurônios, estarão sendo (quase) zerados. Dessa forma você acaba tendo uma rede com "menos parâmetros", "menor", simplificada. Se &lambda; for 2 - um valor muito baixo, os efeitos da regularização sobre os pesos é pequeno. O objetivo então é determinar um valor de &lambda; que produza modelos intermediários, não muito simples ou complexos, que tenha aprendido o essencial dos dados. 
+
+Outro importante ponto é que a Regularização L1 e L2 pode tornar os resultados de funções de ativação (como sigmóide ou <i>tanh</i>) análogos a uma função linear.  
+
+Outra coisa que acontece é que se lambda for alto, w acaba sendo baixo e o Z acaba sendo baixo, fazendo com que cada camada acabe sendo parecida roughly linear, como se fosse uma regressão linear (a parte do meio de um gráfico de tanh ou logistic). Uma rede com camadas lineares não é capaz então de tomar decisões muito complexas, fazer modelos muito overfitted, fazer non-linear decision boundaries
+o termo penaliza os valores de w por serem muito grandes
 
 ### Por que regularizar só o parâmetro <i>w</i>?
 
