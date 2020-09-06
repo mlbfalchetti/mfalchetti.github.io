@@ -22,3 +22,12 @@ Nesse ambiente pretendo escrever sobre tópicos que venho aprendendo de forma cl
 
 :question: 
 
+Tópicos:
+
+* UNIX
+  <p><a href="https://mfalchetti.github.io/basics/unix/2020/08/22/Scripts-UNIX-parte-01.html">Scripts UNIX, parte 01</a></p>
+* Deep learning
+  * Função de ativação
+    <p><a href="https://mfalchetti.github.io/deep-learning/activation-function/2020/08/26/Fun%C3%A7%C3%A3o-Softmax.html">Função Softmax</a></p>
+  * Regularização
+    <p><a href="https://mfalchetti.github.io/deep-learning/regularization/2020/08/30/Regulariza%C3%A7%C3%A3o_L1_e_L2.html">Regularização L1 e L2</a></p>
