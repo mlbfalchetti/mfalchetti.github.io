@@ -6,3 +6,5 @@ categories: deep-learning regularization
 ---
 
 Caret basic
+
+Classification And REgression Training
