@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Regularização  L1 e L2"
+title:  "Projeto end-to-end de Aprendizado de máquina"
 date:   2020-08-30 14:00:00 -0300
 categories: deep-learning regularization
 ---
-TensorFlow 2.0
+Este projeto está contido no livro "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow - 2nd Edition", do autor Aurélien Géron e publicado pela O'Reilly; link para página do GitHub: https://github.com/ageron/handson-ml2/blob/master/02_end_to_end_machine_learning_project.ipynb). 
