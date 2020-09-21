@@ -23,4 +23,14 @@ Toda tarefa de aprendizagem de máquina deve possuir um medidor de performance, 
 </p>
 
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<p style="text-align: justify;">
+  $$RMSE (X, h) = \sqrt{{1 \over m} {\sum_{i=1}^m (h(x^{(i)}) - y^{(i)})^2} }.$$
+</p>
+
+<p style="text-align: justify;">
+  $$MAE (X, h) = {1 \over m} \sum_{i=1}^m|h (x^{(i)}) - y^{(i)}|.$$
+</p>
 
