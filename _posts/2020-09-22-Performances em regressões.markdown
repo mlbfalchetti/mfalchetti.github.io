@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Performance em análises de regressões"
+title:  "Performances em regressões"
 date:   2020-09-22 14:00:00 -0300
-categories: deep-learning regularization
+categories: performance-measure regression
 ---
 ### Decorar ou aprender
 
 <p style="text-align: justify;">
+
+
 Toda tarefa de aprendizagem de máquina deve possuir um medidor de performance, dessa forma você saberá se seu modelo está cometendo muitos erros. Quando você está realizando uma tarefa de regressão, seja ela linear, logística, múltipla etc, a medida típica de performance é o RMSE ou Root Mean Square Error. Ele dá uma ideia do erro que o sistema tipicamente faz em suas predições, dando maior peso a erros maiores. 
   A fórmula matemática para computar o RMSE é: 
   
