@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devo usar RMSE ou MAE para medir performances?"
+title:  "RMSE ou MAE para performances?"
 date:   2020-09-30 20:00:00 -0300
 categories: performance-measure
 ---
