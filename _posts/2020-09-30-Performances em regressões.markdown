@@ -7,7 +7,9 @@ categories: performance-measure
 ### RMSE ou MAE?
 
 <p style="text-align: justify;">
-As tarefas de aprendizagem de máquina devem sempre possuir um medidor de performance, para que você consiga avaliar se os modelos estão comentendo altas taxas de acertos ou erros. Quando você está elaborando um modelo de regressão, seja ela linear, logística, redes elásticas etc, a típica medida de performance é o RMSE, do inglês: <i>Root Mean Square Error</i>, ou do tupiniquim: Raiz do Erro Quadrático Médio. Ela dá uma ideia dos erros do sistema, dando um maior peso a erros maiores. 
+As tarefas de aprendizagem de máquina devem sempre possuir um medidor de performance, para que você consiga avaliar se os modelos estão comentendo altas taxas de acertos ou erros. 
+  
+Quando você está elaborando um modelo de regressão, seja ela linear, logística, redes elásticas etc, a típica medida de performance é o RMSE, do inglês: <i>Root Mean Square Error</i>, ou do tupiniquim: Raiz do Erro Quadrático Médio. Ela dá uma ideia dos erros do sistema, dando um maior peso a erros maiores. 
 </p>
 
 <p style="text-align: justify;">
