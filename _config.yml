@@ -1,7 +1,7 @@
 remote_theme: samarsault/plainwhite-jekyll
 
-title: Your awesome title
-author: GitHub User
+title: Página de ciência de dados e de bioinformática do Marcelo Falchetti
+author: Marcelo Falchetti
 email: your-email@domain.com
 description: # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true 
