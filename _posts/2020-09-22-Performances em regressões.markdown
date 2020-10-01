@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quando devo usar RMSE/MAE como medida de performances?"
-date:   2020-09-22 14:00:00 -0300
+date:   2020-09-30 20:00:00 -0300
 categories: performance-measure
 ---
 ### RMSE ou MAE?
