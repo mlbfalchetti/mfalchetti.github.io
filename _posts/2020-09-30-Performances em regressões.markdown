@@ -22,7 +22,7 @@ A fórmula para computar o RMSE é:
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <p style="text-align: justify;">
-  $$RMSE (X, h) = \sqrt{1 \over m} {\sum_{i=1}^m (h(x^{(i)}) - y^{(i)})^2}.$$
+  $$RMSE (X, h) = \sqrt{\\{1 \over m} {\sum_{i=1}^m (h(x^{(i)}) - y^{(i)})^2}\\}.$$
 </p>
 
 <p style="text-align: justify;">
