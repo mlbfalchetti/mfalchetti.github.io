@@ -7,7 +7,7 @@ categories: performance-measure
 ### RMSE ou MAE?
 
 <p style="text-align: justify;">
-As tarefas de aprendizagem de máquina devem possuir um medidor de performance, para que você consiga avaliar se os modelos estão comentendo altas taxas de acertos ou de erros. 
+As tarefas de aprendizagem de máquina devem possuir um medidor de performance, para que você consiga avaliar se os modelos estão realizando altas taxas de acertos ou de erros. 
 </p>
 
 <p style="text-align: justify;">
