@@ -19,3 +19,11 @@ sudo apt-get update -y
 sudo apt-get install -y libxml2-dev
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y libcurl4-openssl-dev
+
+
+
+#--
+sudo apt-get install catdoc
+xls2csv -c/, file_name.xls
+xls2csv -c/, file_name.xls > file_name.csv
+man xls2csv
