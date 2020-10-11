@@ -47,3 +47,53 @@ vi arquivo.awk
 }
 awk -f arquivo.awk arquivo_que_quero_executar.txt
 
+/PAULO/ {comandos}
+$1 == 455 {comandos}
+
+BEGIN e END
+BEGIN {comandos}
+END {comandos}
+
+vi fitro_expr.awk
+/PAULO/{
+  print $0
+}
+awk -f filtro_expr.awk arquivo_que_quero_executar.txt
+
+vi fitro_expr.awk
+/o/{
+  print $0
+}
+awk -f filtro_expr.awk arquivo_que_quero_executar.txt
+
+vi fitro_expr.awk
+/^.2/{
+  print $0
+}
+awk -f filtro_expr.awk arquivo_que_quero_executar.txt
+(segundo caracter é 2)
+
+vi fitro_expr.awk
+$1 == 840 || $1 == 454{
+  print $0
+}
+awk -f filtro_expr.awk arquivo_que_quero_executar.txt
+(ou)
+
+vi x.awk
+BEGIN{
+  print "CODIGO NOME TELEFONE"
+}
+{
+  print $0
+}
+awk -f filtro_expr.awk arquivo_que_quero_executar.txt
+
+vi x.awk
+{
+  print $0
+}
+END{
+  print "FIM DO ARQUIVO"
+}
+awk -f filtro_expr.awk arquivo_que_quero_executar.txt
