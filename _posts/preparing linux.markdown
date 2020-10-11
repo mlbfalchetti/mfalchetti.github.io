@@ -27,3 +27,23 @@ sudo apt-get install catdoc
 xls2csv -c/, file_name.xls
 xls2csv -c/, file_name.xls > file_name.csv
 man xls2csv
+
+
+#--
+AWK
+linguagem para manipulação de arquivos, flexibilidade, performance em arquivos grandes comparado com shell, 
+linguagem orientada a linha, cada linha será processada para o que tem dentro da {} 
+
+awk '{print $0}'
+ls -l | awk '{print $5}'
+
+vi arquivo.awk
+
+{
+  print $0
+}
+{
+  print "bloco repetido", $0
+}
+awk -f arquivo.awk arquivo_que_quero_executar.txt
+
