@@ -97,3 +97,5 @@ END{
   print "FIM DO ARQUIVO"
 }
 awk -f filtro_expr.awk arquivo_que_quero_executar.txt
+
+sudo dpkg -i programa
