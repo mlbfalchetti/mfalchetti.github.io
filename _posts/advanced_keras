@@ -224,3 +224,69 @@ plot_model(model, to_file='model.png')
 data = plt.imread('model.png')
 plt.imshow(data)
 plt.show()
+
+
+
+# Predict
+games_tourney['pred'] = model.predict([games_tourney['team_1'],
+                                             games_tourney['team_2'],
+                                             games_tourney['home']])
+                                             
+                                             
+                                             
+# Create an input layer with 3 columns
+input_tensor = Input((3,))
+
+# Pass it to a Dense layer with 1 unit
+output_tensor = Dense(1)(input_tensor)
+
+# Create a model
+model = Model(input_tensor, output_tensor)
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_absolute_error')
+
+# Fit the model
+model.fit(games_tourney_train[['home', 'seed_diff', 'pred']],
+          games_tourney_train['score_diff'],
+          epochs=1,
+          verbose=True)
+
+# Evaluate the model on the games_tourney_test dataset
+print(model.evaluate(games_tourney_test[['home', 'seed_diff', 'prediction']],
+               games_tourney_test['score_diff'], verbose=False))
+               
+               
+               
+#######################################
+# Define the input
+input_tensor = Input((2, ))
+
+# Define the output
+output_tensor = Dense(2)(input_tensor)
+
+# Create a model
+model = Model(input_tensor, output_tensor)
+
+# Compile the model
+model.compile(optimizer='adam', loss='mean_absolute_error')
+
+# Fit the model
+model.fit(games_tourney_train[['seed_diff', 'pred']],
+  		  games_tourney_train[['score_1', 'score_2']],
+  		  verbose=True,
+  		  epochs = 100,
+  		  batch_size = 16384)
+                      # Print the model's weights
+
+print(model.get_weights())
+
+# Print the column means of the training data
+print(games_tourney_train.mean())         
+
+# Evaluate the model on the tournament test data
+print(model.evaluate(games_tourney_test[['seed_diff', 'pred']],
+  		  games_tourney_test[['score_1', 'score_2']], verbose=False))
+
+
+
