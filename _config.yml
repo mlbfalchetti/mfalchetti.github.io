@@ -20,8 +20,8 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: user_mfalchetti
-    github:  mfalchetti
+    twitter: mlbfalchetti
+    github:  mlbfalchetti
     linkedIn: in/marcelo-falchetti/
 
 # Build settings
